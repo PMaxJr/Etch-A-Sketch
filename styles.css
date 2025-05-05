@@ -1,0 +1,18 @@
+body {
+  border: 50px 50px;
+}
+
+#grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  margin: 0 auto;
+  max-height: 800px;
+  overflow: hidden;
+}
+
+.grid-item {
+  width: 16px;
+  height: 16px;
+  border: 0.1px solid #000;
+}
